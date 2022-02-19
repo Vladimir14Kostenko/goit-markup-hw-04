@@ -146,22 +146,18 @@ img {
   text-align: center;
   margin: 0 auto;
 
-
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
 
-  background-image: linear-gradient(to right, rgba(47,
-  48, 58, 0.4)),
-  url('../images/hero.jpg)';
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: var(--section-color);
 }
-
-
 
 .hero-title {
   margin-bottom: 30px;
@@ -184,6 +180,7 @@ img {
   min-height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: transparent;
 
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -233,7 +230,7 @@ img {
 }
 
 .feature-item:nth-child(4)::before {
-  background-color: url('../images/astronaut.svg');
+  background-image: url('../images/astronaut.svg');
 }
 
 .feature-item:last-child {
@@ -306,7 +303,7 @@ img {
 }
 
 .subtitle-icon {
-  padding: 30px 0;
+  padding: 30px 59px;
 }
 
 .section-avatar {
