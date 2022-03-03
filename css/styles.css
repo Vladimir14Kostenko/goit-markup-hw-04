@@ -348,7 +348,6 @@ img {
 
 .icon-logo {
   fill: currentColor;
-  background-color: #AFB1B8;
 }
 
 .icon-logo-link:hover,
@@ -400,7 +399,7 @@ img {
 }
 
 .clients-logo-svg {
-  fill: carrentColor;
+  fill: currentColor;
 }
 
 .clients-link:hover,
@@ -566,6 +565,7 @@ img {
 }
 
 .photo-link {
+  text-decoration: none;
   display: block;
 }
 
